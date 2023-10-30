@@ -1,0 +1,27 @@
+.titulo{
+  display: inline-flex;
+  
+}
+
+.buscador {
+  width: 400px;
+  display: inline-flex; /* Cambiamos de grid a inline-flex */
+  align-items: center;
+  left: 20%; /* En lugar de "left" */
+  position: relative;
+  
+}
+
+.menu {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 20px; /* Ajusta el margen izquierdo según tus necesidades */
+  max-width: 1000px;
+  position: relative;
+  left: 400px;
+}
+li {
+  padding: 10px;
+  max-width: 100%;
+  /* Eliminamos "position: relative" y "left" */
+}

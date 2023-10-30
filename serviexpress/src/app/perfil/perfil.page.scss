@@ -1,0 +1,54 @@
+.titulo{
+  display: inline-flex;
+  
+}
+
+.buscador {
+  width: 400px;
+  display: inline-flex; /* Cambiamos de grid a inline-flex */
+  align-items: center;
+  left: 20%; /* En lugar de "left" */
+  position: relative;
+  
+}
+
+.menu {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 20px; /* Ajusta el margen izquierdo según tus necesidades */
+  max-width: 1000px;
+  position: relative;
+  left: 400px;
+}
+li {
+  padding: 10px;
+  max-width: 100%;
+  /* Eliminamos "position: relative" y "left" */
+}
+  .ia{
+    
+    position: relative;
+    width: 400PX;
+    left: 35em;
+    top: 10em;
+  }
+ 
+  .label{
+    font-weight: bold;
+
+  }
+  .avatar{
+    display: block;
+    position: relative;
+    left: 38%;
+    width: 150px;
+    height: 150px;
+    top: 5em;
+  }
+.boton{
+    position: relative;
+    width: 400PX;
+    left: 35em;
+    top: 10em;
+
+}
